@@ -78,7 +78,8 @@ public class CuentaApi {
                         System.out.println("tiene reversa de reversa");
                         if (contRev%2==0)
                         flag=true;
-                        
+                        else
+                        flag=false;
                     }
                     else
                     flag=false;
